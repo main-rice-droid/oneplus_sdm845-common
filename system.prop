@@ -8,6 +8,7 @@ persist.vendor.btstack.enable.lpa=true
 persist.vendor.btstack.enable.twsplus=false
 ro.bluetooth.library_name=libbluetooth_qti.so
 
+
 # BPF
 ro.kernel.ebpf.supported=true
 
@@ -64,3 +65,10 @@ config.disable_rtt=true
 # WiFi Display
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
+
+
+# Blurrr
+ro.sf.blurs_are_expensive=1 
+ro.surface_flinger.supports_background_blur=1
+debug.sf.latch_unsignaled=0 
+debug.sf.disable_backpressure=1
