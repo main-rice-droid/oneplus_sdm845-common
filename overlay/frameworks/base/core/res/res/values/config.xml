@@ -389,4 +389,7 @@
 <!-- Pocket Lock -->
     <bool name="config_pocketModeSupported">true</bool>
     <bool name="config_pocketUseLightSensor">false</bool>
+
+    <!--Enable system info overlays -->
+    <bool name="config_supportSystemInfo">true</bool>
 </resources>
